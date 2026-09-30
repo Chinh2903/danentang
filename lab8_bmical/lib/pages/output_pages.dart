@@ -4,7 +4,8 @@ import 'package:bmical/constants.dart';
 import 'package:flutter/material.dart';
 
 class ResultsPage extends StatelessWidget {
-  ResultsPage({
+  const ResultsPage({
+    super.key,
     required this.interpretation,
     required this.bmiResult,
     required this.resultText,

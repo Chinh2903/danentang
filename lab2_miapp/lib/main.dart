@@ -31,7 +31,7 @@ class MiCard extends StatelessWidget {
                 radius: 80,
               ),
               Text(
-                "Phan Minh Gia Huy",
+                "Lê Quang Chính",
                 style: TextStyle(
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
@@ -56,13 +56,13 @@ class MiCard extends StatelessWidget {
               Card(
                 child: ListTile(
                   leading: Icon(Icons.phone),
-                  title: Text("huypmg.16@gmail.com"),
+                  title: Text("chinhlq.23it@vku.udn.vn"),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.mail),
-                  title: Text("Gia Huy Phan"),
+                  title: Text("Lê Quang Chính"),
                 ),
               ),
             ],

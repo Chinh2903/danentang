@@ -15,7 +15,7 @@ class InputPage extends StatefulWidget {
   const InputPage({super.key});
 
   @override
-  _InputPageState createState() => _InputPageState();
+  State<InputPage> createState() => _InputPageState();
 }
 
 class _InputPageState extends State<InputPage> {
